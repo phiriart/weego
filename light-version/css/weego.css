@@ -83,17 +83,18 @@ html[xmlns] .clearfix {
 	}
 
 .banner_1{
-	    color: #00bc6f;
-    font-size: 140px;
+    color: #00bc6f;
+    font-size: 230%;
     text-align: left;
     font-weight: bold;
-    line-height: 117px;
-	font-family: 'Lato', sans-serif;
+    line-height: 84%;
+    font-family: 'Lato', sans-serif;
 	}
+
 	
 	.blanco{
 	color:#fff;
-	font-size:80px;
+	font-size:100%;
 	text-align:left;
 	}
 	
@@ -104,22 +105,20 @@ html[xmlns] .clearfix {
 
 	
 .boton{
-    width: 100px;
-    height: 500px;
+  
     background-color: #00bc6f;
     border-radius: 45px 45px 45px 45px;
-    font-size: 22px;
+    font-size: 32%;
     font-family: Verdana, Geneva, sans-serif;
     padding: 17px 15px 18px 22px;
     font-weight: bold;
 	}
 	
 .queesweego{
-      font-size: 110px;
+       font-size: 700%;
     color: #00bc6f;
-    text-align: right;
     font-weight: bold;
-    width: 430px;
+    width: 120%;
 	}	
 	
 .section-title-nuevo{
@@ -130,18 +129,18 @@ html[xmlns] .clearfix {
 	}		
 	
 .definicionquees{
-    text-align: right;
+      text-align: right;
     color: #62259d;
-    font-size: 35px;
-    width: 431px;
+    font-size: 205%;
     float: right;
     line-height: 1.1;
     font-weight: normal;
 	}	
 	
 #persona{
-    width: 740px;
+    width: 70%;
     float: left;
+    margin-left: 10%;
 
 	}	
 	
@@ -152,11 +151,11 @@ html[xmlns] .clearfix {
     height: 870px;
 	}
 	
-.fondo_ciudad{
+.fondo_ciudad_blanco{
     background-image: url(../images/ciudad.png);
     background-position: bottom;
     background-repeat: repeat-x;
-    height: 760px;
+
 	}	
 
 .verde{
@@ -166,50 +165,44 @@ html[xmlns] .clearfix {
 }
 
 .comofunciona{
-color: #fff;
-font-size: 100px;
-font-weight: bold;
-width: 800px;
+    color: #fff;
+    font-size: 500%;
+    font-weight: bold;
 }
 
 .subtitulo{
      color: #fff;
-    font-size: 22px;
+    font-size: 114%;
     font-weight: bold;
-    margin-left: 64px;
+    text-align: center;
 }
 
 .modem{
-    margin-left: 223px;
+    margin-left: 30%;
+    width: 60%;
+
 
 }
 
 .precio{
-    margin-left: 391px;
-    width: 40%;
+width: 30%
 
 }
 
 
 .mio{
 	width:200px;
-	padding-right:1100px;
+	padding-right:60%;
 }
-.queesweego{
-      font-size: 110px;
-    color: #00bc6f;
-    text-align: right;
-    font-weight: bold;
-    width: 430px;
-	}
+
 
 .caja{
-    width: 400px;
+    width: 100%;
     background-color: #f6f6f6;
     border-radius: 5px;
-    height: 614px;
+    height: 614%; 
     border: solid 1px #dddddd;
-    margin-left: 50%;
+    /* margin-left: 50%; */
 }	
 
 .contrata{
@@ -243,7 +236,7 @@ font-weight: bold;
     text-align: center;
     font-weight: bold;
     color: #000;
-    font-size: 26px;	
+    font-size: 157%;
 }
 
 
@@ -266,10 +259,6 @@ font-weight: bold;
 
 }
 
-.container-costo{
-height: 900px;
-
-}
 
 .border-line {
     width: 360px;
