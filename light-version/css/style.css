@@ -33,6 +33,9 @@ p{
 }
 .section-padding{
     padding-top: 100px;
+    background-image: url(../images/ciudad.png);
+    background-repeat: repeat-x;
+    vertical-align: baseline;
 }
 .divided30{
     width:100%;
@@ -54,7 +57,8 @@ h4{
 	font-size:14px;
 	}
 .colored-text{
-    color:#00a99d;
+    color:#343434;
+    font-weight: bold;
 }
 
 .candiman{
@@ -71,30 +75,31 @@ h4{
     margin-bottom: 60px;
 }
 .section-title h1{
-    text-transform: uppercase;
-    font-weight: 300;
+      font-weight: bold;
     margin: 0px;
-    font-size: 40px;
+    font-size: 80px;
     margin-bottom: 0px;
     letter-spacing: 1px;
+    color: #fff;
 }
 .border-line{
-    width:40px;
+    width: 310px;
     height: 1px;
     margin-top: 20px;
     display: block;
     text-align: center;
-    background-color: #00a99d;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #d1d1d1;
+    /* margin-left: auto; */
+    margin: 0 auto;
 }
 .subtitle-caption{
-    font-weight: 400;
+       font-weight: 400;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 22px;
     margin-bottom: 0;
     line-height: 25px;
-    text-transform: capitalize;
+
+    color: #fff;
 }
 .center-title{
     margin-bottom: 40px;
@@ -200,11 +205,11 @@ BUTTONS
 
 
 .btn{
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 14px;
+     text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 22px;
     letter-spacing: 2px;
-    border-radius: 0px;
+    border-radius: 30px;
     font-family: 'Lato', sans-serif;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -214,15 +219,13 @@ BUTTONS
     outline: 0;
 }
 .btn-white{
-    color:#fff;
+      color: #562999;
     padding: 0px;
-    border: 1px solid #fff;
-    padding: 10px 20px;
-    background-color: transparent;
+    padding: 10px 60px;
+    background-color: #fff;
 }
 .btn-white:hover{
-    color:#00a99d;
-    border-color: #fff;
+    color:#4ebb73;
     background-color: #fff;
 }
 .btn-border-black{
@@ -237,10 +240,10 @@ BUTTONS
     background-color:#333;
 }
 .btn-border-theme{
-    border: 1px solid #00a99d;
-    color:#00a99d;
-    padding: 10px 25px;
-    background-color: transparent;
+    /* border: 1px solid #00a99d; */
+    color: #fff;
+    padding: 10px 85px;
+    background-color: #562999;
 }
 .btn-border-theme:hover{
     color:#fff;
@@ -772,7 +775,9 @@ cta
 
 /****pricing****/
 .price-box{
-      background: #f9f9f9;
+    background: #f9f9f9;
+    border: solid 1px #dddddd;
+    border-radius: 16px;
 }
 .price-box .header h3 {
   padding: 12px 10px;
@@ -785,8 +790,7 @@ cta
       border-radius: 2px 2px 0 0;
 }
 .price-box .header .price {
-  background: #ebebeb;
-    padding: 15px 10px;
+
 }
 .header .price h2 {
   color: #4D4D4D;
@@ -797,8 +801,9 @@ cta
     font-size: 13px;
 }
 .price-box ul li{
-    padding: 13px 0;
-      border-bottom: 1px solid #ebebeb;
+     padding: 13px 0;
+    text-align: left;
+    margin-left: 49px;
 }
  .price-footer {
   padding: 20px;
