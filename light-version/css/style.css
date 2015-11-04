@@ -62,17 +62,17 @@ h4{
 }
 
 .candiman{
-  font-family: 'Lato', sans-serif;
-  display: inline-block;
-  text-transform: lowercase;
-  margin-right: 5px;
-  font-weight:bold;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    text-transform: lowercase;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 41px;
 }
 .section-title{
     position: relative;
     padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 60px;
+        margin-bottom: 60px;
 }
 .section-title h1{
       font-weight: bold;
@@ -130,7 +130,7 @@ h4{
 	
 }
     nav.after-color.navbar-default .navbar-brand{
-    color:#4ebb73;
+    color:#fff;
     font-size: 35px;
     font-weight: bold;
 }
@@ -139,7 +139,7 @@ h4{
     }
     
     nav.after-color .navbar-nav>li>a{
-        color:#333;
+        color:#000;
     }
     .nav>li>a {
         position: relative;
@@ -155,7 +155,7 @@ h4{
     }
 }
 .navbar-default {
-    background-color: rgba(255,255,255,.95);
+    background-color: #fff;
     border:0px;
     margin: 0px;
     width:100%;
@@ -170,7 +170,7 @@ h4{
     -ms-transition: all 0.3s ease-in-out;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #333;
+    color: #4ebb73;
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
@@ -279,12 +279,12 @@ SLIDER REVOLUTION CSS
     font-family: 'Lato', sans-serif;
 }
 .slider-button a.btn-white{
-    color:#000;
-    background-color: #fff;
+    color:#fff;
+    background-color: #00bc6f;
 }
 .slider-button a.btn-white:hover{
     color:#fff;
-    background-color: transparent;
+    background-color: #00bc6f;
 }
 /********
 
@@ -514,7 +514,7 @@ TEAM CSS
 }
 .imgoverlay {
     position: relative;
-    overflow: hidden;
+    overflow:visible;
     display: block;
     max-width: 100%
 }
@@ -810,7 +810,7 @@ cta
 }
 .header.active h3{
     color:#fff;
-    background-color: #00a99d;
+    background-color: #562999;
 }
 /******inner pages******/
 .page-title{

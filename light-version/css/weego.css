@@ -82,7 +82,7 @@ html[xmlns] .clearfix {
 	color:#00bc6f;
 	}
 
-.banner_1{
+.titulo_verde{
     color: #00bc6f;
     font-size: 230%;
     text-align: left;
@@ -93,14 +93,14 @@ html[xmlns] .clearfix {
 
 	
 	.blanco{
-	color:#fff;
-	font-size:100%;
-	text-align:left;
+ font-size: 150%;
+    text-align: left;
+    font-weight: bold;
+    line-height: 84%;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
 	}
 	
-.titulos{
-	float:left;
-	}	
 	
 
 	
@@ -118,8 +118,16 @@ html[xmlns] .clearfix {
        font-size: 700%;
     color: #00bc6f;
     font-weight: bold;
-    width: 120%;
-	}	
+    width: 440px;
+
+	}
+
+  .queesweego_chico{
+       font-size: 400%;
+    color: #00bc6f;
+    font-weight: bold;
+    
+    }     	
 	
 .section-title-nuevo{
     width: 400px;
@@ -129,13 +137,30 @@ html[xmlns] .clearfix {
 	}		
 	
 .definicionquees{
-      text-align: right;
-    color: #62259d;
     font-size: 205%;
+    line-height: 1.1;
+    font-weight: normal;
+    width: 410px;
+     color: #62259d;
+	}
+
+ .definicionquees_chico{
+       text-align: center;
+    color: #62259d;
+    font-size: 150%;
     float: right;
     line-height: 1.1;
     font-weight: normal;
-	}	
+    margin-bottom: 32px;
+    } 
+
+   .section-padding_que{
+      background-image: url(../images/ciudad.png);
+    background-repeat: repeat-x;
+    vertical-align: baseline;
+
+
+   }   	
 	
 #persona{
     width: 70%;
@@ -191,7 +216,6 @@ html[xmlns] .clearfix {
 
 .precio_verde{
      color: #4ebb73;
-    margin-bottom: 3px;
     font-weight: bold;
     font-size: 150px;
     float: left;
@@ -199,18 +223,18 @@ html[xmlns] .clearfix {
 
 }
 .ilimitado{
-    text-transform: uppercase;
+     text-transform: uppercase;
     color: #343434;
     font-size: 25px;
     font-weight: bold;
     clear: both;
+    padding-bottom: 15px;
 }
 
 .contrata{
       font-weight: 300;
     margin: 0px;
     font-size: 45px;
-    margin-bottom: 0px;
     letter-spacing: 1px;
     color: #343434;
 
@@ -226,9 +250,17 @@ color: #c7c7c7;
     color: #562999;
     float: right;
     margin-right: 61px;
-    margin-top: -88px;
+    margin-top: 130px;
     font-weight: bold;
 }
+.dolares_chico{
+    font-size: 30px;
+    color: #562999;
+    float: right;
+    margin-right: 51px;
+    margin-top: -90px;
+    font-weight: bold;
+    }
 
 li img{
      width: 30px;
@@ -262,8 +294,8 @@ font-weight: bold;
     margin-top: -5px;
 }	
 
-.section-padding-verde {
-    padding-top: 100px;
+.section-padding_como {
+    padding-top: 50px;
     background-image: url(../images/verde.png);
     background-repeat: repeat-x;
     vertical-align: baseline;
