@@ -91,15 +91,12 @@ html[xmlns] .clearfix {
     font-family: 'Lato', sans-serif;
 	}
 
+
 	
-	.blanco{
- font-size: 150%;
-    text-align: left;
-    font-weight: bold;
-    line-height: 84%;
-    font-family: 'Lato', sans-serif;
-    color: #fff;
-	}
+.titulo_blanco_chico{
+
+        font-size: 197%;
+}
 	
 	
 
@@ -207,6 +204,8 @@ html[xmlns] .clearfix {
     width: 60%;
 }
 
+ 
+
 
 
 .mio{
@@ -254,10 +253,10 @@ color: #c7c7c7;
     font-weight: bold;
 }
 .dolares_chico{
-    font-size: 30px;
+font-size: 30px;
     color: #562999;
     float: right;
-    margin-right: 51px;
+    margin-right: -59px;
     margin-top: -90px;
     font-weight: bold;
     }
@@ -300,5 +299,20 @@ font-weight: bold;
     background-repeat: repeat-x;
     vertical-align: baseline;
 }
+
+.logofinal{
+background-image: url(../images/logo.png);
+width: 350px;
+height: 158px;
+}
+
+.logotelefono{
+background-image: url(../images/logo_chico.png);
+width: 150px;
+height: 68px;
+}
+
+
+
 
 

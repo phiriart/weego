@@ -224,6 +224,13 @@ BUTTONS
     padding: 10px 60px;
     background-color: #fff;
 }
+
+.btn-white_chico{
+      color: #562999;
+    padding: 0px;
+    padding: 7px 25px;
+    background-color: #fff;
+}
 .btn-white:hover{
     color:#4ebb73;
     background-color: #fff;
@@ -281,6 +288,7 @@ SLIDER REVOLUTION CSS
 .slider-button a.btn-white{
     color:#fff;
     background-color: #00bc6f;
+    margin-top: 20px;
 }
 .slider-button a.btn-white:hover{
     color:#fff;
@@ -771,6 +779,8 @@ cta
    display: block;
    color: rgba(255,255,255,0.7);
    font-size: 12px;
+   padding-top: 5%;
+   text-align: center;
 }
 
 /****pricing****/
